@@ -24,7 +24,7 @@ public class Main {
             students.addAll(parseFile(res));
 
 
-        //Collections.sort(students, (a, b) -> a.gpa < b.gpa ? -1 : a.gpa == b.gpa ? 0 : 1);
+        //Collections.sort(students, (a, b) -> a.gpa < b.gpa ? -1 : a.gpa == b.gpa ? 0 : 1);//
         //Collections.sort(students, (a,b) -> a.firstName.compareToIgnoreCase(b.firstName));
 
         Collections.sort(students);
